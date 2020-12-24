@@ -13,8 +13,7 @@ def color(cordinate):
 a = 'o'
 for i in range (line):
     a = a + 'o'
-a = a *16
-b= a
+a = a * 16
 b = (list(a))
 
 xc=0
