@@ -50,5 +50,5 @@ decorl='+'
 for i in range (line):
     decor = decor + '='
     decorl = decorl + '+'
+print('Screen: '+(str(line))+'x16')
 print(decor, b, decor)
-
