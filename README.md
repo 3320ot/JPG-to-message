@@ -1,15 +1,13 @@
 # JPG-into-message
 This program convert pictures to messanges.
 
-Place location of your file into Conventor.py sourse code.
-
 install using: python setup.py install
 
 Program starts with: converter
 
 Pictures should be in square.
 
-Start the program using Python3 and chooose the count of numbers in one line in your messanger.
+Start the program using Python3, chooose the count of numbers in one line in your messanger and picture location.
 
 Copy converted text into messanger.
 
@@ -25,7 +23,7 @@ If anybody write the comment, I'll write instruction for Termux
 
 Установите программу командой: python setup.py install
 
-Запустите программу с помощью команды converter и она предложит ввести количество цифр, которые помещаются в одну строку мессенджера.
+Запустите программу с помощью команды converter, она предложит ввести количество цифр, которые помещаются в одну строку мессенджера, а после ввода путь к изображению.
 
 Введите выведенный текст в мессенджер.
 
