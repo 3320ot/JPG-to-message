@@ -13,7 +13,7 @@ def color(cordinate):
 a = 'o'
 for i in range (line):
     a = a + 'o'
-a = a * 16
+a = a *16
 b = (list(a))
 
 xc=0
@@ -45,4 +45,10 @@ while i != line*16:
     
 b=str(''.join(b))
 b = b.replace('o', '')
-print(b)
+decor='='
+decorl='+'
+for i in range (line):
+    decor = decor + '='
+    decorl = decorl + '+'
+print(decor, b, decor)
+
