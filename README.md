@@ -15,7 +15,10 @@ Copy converted text into messanger.
 
 Final resolution is (len of symbols in line) x16
 
-Requirements: Pillow; Python
+Should be installed: Pillow; Python
+
+If anybody write the comment, I'll write instruction for Termux
+
 
 
 Выберите изображение в формате один к одному и введите путь к нему в исходный код Conventor.py
@@ -28,4 +31,6 @@ Requirements: Pillow; Python
 
 Разрешение изображения я виде текста (Количество цифр в строке)х16
 
-Зависимости: Pillow; Python
+Должны быть установлены: Pillow; Python
+
+Если вы напишите комментарий, я выложу инструкцию для Termux
