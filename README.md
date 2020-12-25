@@ -11,7 +11,7 @@ Start the program using Python3 and chooose the count of numbers in one line in 
 Copy converted text into messanger.
 Final resolution is (len of symbols in line) x16
 
-Requirements: Pillow
+Requirements: Pillow; Python
 
 
 Выберите изображение в формате один к одному и введите путь к нему в исходный код Conventor.py
@@ -23,4 +23,4 @@ Requirements: Pillow
 
 Разрешение изображения я виде текста (Количество цифр в строке)х16
 
-Зависимости: Pillow
+Зависимости: Pillow; Python
