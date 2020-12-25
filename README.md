@@ -1,7 +1,7 @@
 # JPG-into-message
 This program convert pictures to messanges.
 
-Place location of your file into sourse code.
+Place location of your file into Conventor.py sourse code.
 
 Pictures should be in square.
 
@@ -12,7 +12,7 @@ Final resolution is (len of symbols in line) x16
 Requirements: Pillow
 
 
-Выберите изображение в формате один к одному и введите путь к нему в исходный код, запустите программу и она предложит ввести количество цифр, которые помещаются в одну строку мессенджера.
+Выберите изображение в формате один к одному и введите путь к нему в исходный код Conventor.py, запустите программу и она предложит ввести количество цифр, которые помещаются в одну строку мессенджера.
 
 Введите выведенный текст в мессенджер.
 
