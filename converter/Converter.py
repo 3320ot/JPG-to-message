@@ -2,7 +2,8 @@ def converter():
     from PIL import Image
 
     line = int(input('Enter count of numbers in the line >>>> ')) #Numbers in line
-    picture = Image.open('L://foto.JPG') #File location
+    image = str(input('Enter location of the picture >>>')) #File location
+    picture = Image.open(image) 
     size = (line, 16)
     grayscale = picture.convert('L')
     picture = grayscale
