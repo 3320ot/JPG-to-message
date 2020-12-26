@@ -2,9 +2,14 @@ def converter():
     from PIL import Image
 
     line = int(input('Enter count of numbers in the line >>>> ')) #Numbers in line
+    if (line%2)==0:
+        lineY = int(line/2)
+    else:
+        ost=line%2
+        lineY = int((line/2)-ost)
     image = str(input('Enter location of the picture >>>')) #File location
     picture = Image.open(image) 
-    size = (line, 16)
+    size = (line, lineY)
     grayscale = picture.convert('L')
     picture = grayscale
     picture = picture.resize(size)
@@ -12,16 +17,15 @@ def converter():
         col = (picture.getpixel(cordinate))
         return col
 
-    a = 'o'
-    for i in range (line):
+    a = ''
+    for i in range (16384):
         a = a + 'o'
-    a = a *16
     b = (list(a))
 
     xc=0
     i=0
     yc = 0
-    while i != line*16:
+    while i != line*lineY:
         i = i + 1
         colors = color((xc,yc))
         if colors <= 10:
@@ -48,10 +52,9 @@ def converter():
     b=str(''.join(b))
     b = b.replace('o', '')
     decor='='
-    decorl='+'
     for i in range (line):
         decor = decor + '='
-        decorl = decorl + '+'
-    print('Screen: '+(str(line))+'x16')
-    print(decor, b, decor)
-
+    print('Screen: '+(str(line))+'x'+str(lineY))
+    print(decor)
+    print(b)
+    print(decor)
