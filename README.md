@@ -1,4 +1,4 @@
-# JPG-into-message
+# JPG-to-message
 This program convert pictures to messanges.
 
 install using: python setup.py install
