@@ -3,7 +3,7 @@ from os.path import join, dirname
 import converter
 
 setup(
-    name='JPG-into-message-main',
+    name='JPG-to-message',
     version=converter.__version__,
     packages=find_packages(),
     license='Apache License 2.0',
