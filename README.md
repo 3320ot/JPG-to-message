@@ -7,7 +7,7 @@ Program starts with: converter
 
 Pictures should be in square.
 
-Start the program using Python3, chooose the count of numbers in one line in your messanger and picture location.
+Start the program using Python3, chooose the mode (now TikTok comment mode works only with png), count of numbers in one line in your messanger (in Universall mode) and picture location.
 
 Copy converted text into messanger.
 
@@ -17,13 +17,14 @@ Should be installed: Pillow; Python
 
 If anybody write the comment, I'll write instruction for Termux
 
+
 ============================================================================
 
 Выберите изображение в формате один к одному и введите путь к нему в исходный код Conventor.py
 
 Установите программу командой: python setup.py install
 
-Запустите программу с помощью команды converter, она предложит ввести количество цифр, которые помещаются в одну строку мессенджера, а после ввода путь к изображению.
+Запустите программу с помощью команды converter, она предложит выбрать режим работы и ввести количество цифр, помещающихся в одну строку мессенджера (только в универсальном), а после ввода путь к изображению.
 
 Введите выведенный текст в мессенджер.
 
